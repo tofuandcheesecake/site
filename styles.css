@@ -49,10 +49,9 @@ h1 {
     display: block;
     text-decoration: none;
     font-size: 50px;
-    color: azure;
     font-style: italic;
     margin-bottom: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
     font-weight: lighter;
 }
 
