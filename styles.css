@@ -1,0 +1,172 @@
+body {
+    background-image: url(flowers.jpg);
+    background-size: 100%;
+}
+
+html, body {
+    height: 100%;      
+    margin: 0;          
+  }
+
+body {
+    font-family: "Vend Sans", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-div {
+    background-color: rgb(243, 235, 231, .96);
+    width: 80%;
+    height: 800px;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(24, 24, 29);
+}
+
+.index-nav {
+    margin-top: 90px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+  }
+
+.title:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.title {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation {
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+    color: azure;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+.navigation:visited {
+    color: rgb(6, 6, 6);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.navigation:hover{ 
+    color: rgb(122, 158, 171)
+
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+img {
+    max-width: 30%;
+    width: 100%;
+    display: block;    
+    height: auto;
+    border-radius: 30px;
+    object-fit: contain; 
+}
+
+.bio {
+    font-size: 20px;
+    text-align:left;
+    display: flex;
+    align-items: center;       
+}
+
+.index-header {
+    margin-bottom: 50px;
+}
+
+.subtext {
+    margin-top: -40px;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.works-list {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.works-link {
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(228, 136, 102);
+    font-style: italic;
+}
+
+.works-link:hover {
+    color: rgb(169, 97, 71);
+}
+
+h2 {
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 30px;
+
+}
+
+.contact {
+    max-width: 285px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.contacts {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    img {
+      display: none;
+    }
+  }
+
+.top-nav {
+    text-decoration: none;
+    color: rgb(107, 144, 167);
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.top-nav:visited {
+    text-decoration: none;
+}
+
+.top-nav:hover {
+    color: rgb(3, 2, 2);
+}
+
+.other-nav {
+    margin-bottom: 40px;
+}
