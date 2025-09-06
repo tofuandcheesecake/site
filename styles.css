@@ -145,11 +145,27 @@ h2 {
     margin-top: 40px;
 }
 
-@media only screen and (max-width: 900px) {
-    img {
-      display: none;
+@media only screen and (max-width: 800px) {
+
+    .column {
+        flex: 1;
     }
-  }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    img {
+      min-width: 80%;
+    }
+
+    .centered-div {
+        height: 100%;
+        min-height: 640px; 
+    }
+}
 
 .top-nav {
     text-decoration: none;
